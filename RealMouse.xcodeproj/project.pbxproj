@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22367B4E28146D1700F6A2EA /* RealMouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B4D28146D1700F6A2EA /* RealMouseApp.swift */; };
+		22367B5028146D1700F6A2EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B4F28146D1700F6A2EA /* ContentView.swift */; };
+		22367B5228146D1800F6A2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22367B5128146D1800F6A2EA /* Assets.xcassets */; };
+		22367B5528146D1800F6A2EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22367B5428146D1800F6A2EA /* Preview Assets.xcassets */; };
+		22367B6028146D1800F6A2EA /* RealMouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B5F28146D1800F6A2EA /* RealMouseTests.swift */; };
+		22367B6A28146D1800F6A2EA /* RealMouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B6928146D1800F6A2EA /* RealMouseUITests.swift */; };
+		22367B6C28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B6B28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22367B5C28146D1800F6A2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22367B4228146D1700F6A2EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22367B4928146D1700F6A2EA;
+			remoteInfo = RealMouse;
+		};
+		22367B6628146D1800F6A2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22367B4228146D1700F6A2EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22367B4928146D1700F6A2EA;
+			remoteInfo = RealMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22367B4A28146D1700F6A2EA /* RealMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22367B4D28146D1700F6A2EA /* RealMouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseApp.swift; sourceTree = "<group>"; };
+		22367B4F28146D1700F6A2EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22367B5128146D1800F6A2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22367B5428146D1800F6A2EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22367B5628146D1800F6A2EA /* RealMouse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RealMouse.entitlements; sourceTree = "<group>"; };
+		22367B5B28146D1800F6A2EA /* RealMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22367B5F28146D1800F6A2EA /* RealMouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseTests.swift; sourceTree = "<group>"; };
+		22367B6528146D1800F6A2EA /* RealMouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22367B6928146D1800F6A2EA /* RealMouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseUITests.swift; sourceTree = "<group>"; };
+		22367B6B28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22367B4728146D1700F6A2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B5828146D1800F6A2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B6228146D1800F6A2EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22367B4128146D1700F6A2EA = {
+			isa = PBXGroup;
+			children = (
+				22367B4C28146D1700F6A2EA /* RealMouse */,
+				22367B5E28146D1800F6A2EA /* RealMouseTests */,
+				22367B6828146D1800F6A2EA /* RealMouseUITests */,
+				22367B4B28146D1700F6A2EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22367B4B28146D1700F6A2EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22367B4A28146D1700F6A2EA /* RealMouse.app */,
+				22367B5B28146D1800F6A2EA /* RealMouseTests.xctest */,
+				22367B6528146D1800F6A2EA /* RealMouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22367B4C28146D1700F6A2EA /* RealMouse */ = {
+			isa = PBXGroup;
+			children = (
+				22367B4D28146D1700F6A2EA /* RealMouseApp.swift */,
+				22367B4F28146D1700F6A2EA /* ContentView.swift */,
+				22367B5128146D1800F6A2EA /* Assets.xcassets */,
+				22367B5628146D1800F6A2EA /* RealMouse.entitlements */,
+				22367B5328146D1800F6A2EA /* Preview Content */,
+			);
+			path = RealMouse;
+			sourceTree = "<group>";
+		};
+		22367B5328146D1800F6A2EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22367B5428146D1800F6A2EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22367B5E28146D1800F6A2EA /* RealMouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				22367B5F28146D1800F6A2EA /* RealMouseTests.swift */,
+			);
+			path = RealMouseTests;
+			sourceTree = "<group>";
+		};
+		22367B6828146D1800F6A2EA /* RealMouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22367B6928146D1800F6A2EA /* RealMouseUITests.swift */,
+				22367B6B28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift */,
+			);
+			path = RealMouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22367B4928146D1700F6A2EA /* RealMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22367B6F28146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouse" */;
+			buildPhases = (
+				22367B4628146D1700F6A2EA /* Sources */,
+				22367B4728146D1700F6A2EA /* Frameworks */,
+				22367B4828146D1700F6A2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealMouse;
+			productName = RealMouse;
+			productReference = 22367B4A28146D1700F6A2EA /* RealMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22367B5A28146D1800F6A2EA /* RealMouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22367B7228146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouseTests" */;
+			buildPhases = (
+				22367B5728146D1800F6A2EA /* Sources */,
+				22367B5828146D1800F6A2EA /* Frameworks */,
+				22367B5928146D1800F6A2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22367B5D28146D1800F6A2EA /* PBXTargetDependency */,
+			);
+			name = RealMouseTests;
+			productName = RealMouseTests;
+			productReference = 22367B5B28146D1800F6A2EA /* RealMouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22367B6428146D1800F6A2EA /* RealMouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22367B7528146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouseUITests" */;
+			buildPhases = (
+				22367B6128146D1800F6A2EA /* Sources */,
+				22367B6228146D1800F6A2EA /* Frameworks */,
+				22367B6328146D1800F6A2EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22367B6728146D1800F6A2EA /* PBXTargetDependency */,
+			);
+			name = RealMouseUITests;
+			productName = RealMouseUITests;
+			productReference = 22367B6528146D1800F6A2EA /* RealMouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22367B4228146D1700F6A2EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					22367B4928146D1700F6A2EA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					22367B5A28146D1800F6A2EA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 22367B4928146D1700F6A2EA;
+					};
+					22367B6428146D1800F6A2EA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 22367B4928146D1700F6A2EA;
+					};
+				};
+			};
+			buildConfigurationList = 22367B4528146D1700F6A2EA /* Build configuration list for PBXProject "RealMouse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22367B4128146D1700F6A2EA;
+			productRefGroup = 22367B4B28146D1700F6A2EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22367B4928146D1700F6A2EA /* RealMouse */,
+				22367B5A28146D1800F6A2EA /* RealMouseTests */,
+				22367B6428146D1800F6A2EA /* RealMouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22367B4828146D1700F6A2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22367B5528146D1800F6A2EA /* Preview Assets.xcassets in Resources */,
+				22367B5228146D1800F6A2EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B5928146D1800F6A2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B6328146D1800F6A2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22367B4628146D1700F6A2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22367B5028146D1700F6A2EA /* ContentView.swift in Sources */,
+				22367B4E28146D1700F6A2EA /* RealMouseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B5728146D1800F6A2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22367B6028146D1800F6A2EA /* RealMouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22367B6128146D1800F6A2EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22367B6C28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift in Sources */,
+				22367B6A28146D1800F6A2EA /* RealMouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22367B5D28146D1800F6A2EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22367B4928146D1700F6A2EA /* RealMouse */;
+			targetProxy = 22367B5C28146D1800F6A2EA /* PBXContainerItemProxy */;
+		};
+		22367B6728146D1800F6A2EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22367B4928146D1700F6A2EA /* RealMouse */;
+			targetProxy = 22367B6628146D1800F6A2EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22367B6D28146D1800F6A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22367B6E28146D1800F6A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		22367B7028146D1800F6A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealMouse/RealMouse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealMouse/Preview Content\"";
+				DEVELOPMENT_TEAM = 337239K6L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22367B7128146D1800F6A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealMouse/RealMouse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealMouse/Preview Content\"";
+				DEVELOPMENT_TEAM = 337239K6L4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		22367B7328146D1800F6A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337239K6L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealMouse.app/Contents/MacOS/RealMouse";
+			};
+			name = Debug;
+		};
+		22367B7428146D1800F6A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337239K6L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealMouse.app/Contents/MacOS/RealMouse";
+			};
+			name = Release;
+		};
+		22367B7628146D1800F6A2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337239K6L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RealMouse;
+			};
+			name = Debug;
+		};
+		22367B7728146D1800F6A2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 337239K6L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RealMouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22367B4528146D1700F6A2EA /* Build configuration list for PBXProject "RealMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22367B6D28146D1800F6A2EA /* Debug */,
+				22367B6E28146D1800F6A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22367B6F28146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22367B7028146D1800F6A2EA /* Debug */,
+				22367B7128146D1800F6A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22367B7228146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22367B7328146D1800F6A2EA /* Debug */,
+				22367B7428146D1800F6A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22367B7528146D1800F6A2EA /* Build configuration list for PBXNativeTarget "RealMouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22367B7628146D1800F6A2EA /* Debug */,
+				22367B7728146D1800F6A2EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22367B4228146D1700F6A2EA /* Project object */;
+}
