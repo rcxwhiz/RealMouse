@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct RealMouseApp: App {
+    
+    private let buttonEnabler = KeyIntercepter.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

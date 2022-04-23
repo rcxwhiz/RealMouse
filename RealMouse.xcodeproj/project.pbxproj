@@ -14,6 +14,11 @@
 		22367B6028146D1800F6A2EA /* RealMouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B5F28146D1800F6A2EA /* RealMouseTests.swift */; };
 		22367B6A28146D1800F6A2EA /* RealMouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B6928146D1800F6A2EA /* RealMouseUITests.swift */; };
 		22367B6C28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B6B28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift */; };
+		22367B7D28146F9C00F6A2EA /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B7C28146F9C00F6A2EA /* UserPreferences.swift */; };
+		22367B802814750600F6A2EA /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 22367B7F2814750600F6A2EA /* LaunchAtLogin */; };
+		22367B86281478F800F6A2EA /* KeyIntercepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B85281478F800F6A2EA /* KeyIntercepter.swift */; };
+		22367B882814897600F6A2EA /* CGKeyCodeInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */; };
+		22367B8A28149D5300F6A2EA /* ForwardBackKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		22367B6528146D1800F6A2EA /* RealMouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealMouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22367B6928146D1800F6A2EA /* RealMouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseUITests.swift; sourceTree = "<group>"; };
 		22367B6B28146D1800F6A2EA /* RealMouseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealMouseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22367B7C28146F9C00F6A2EA /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		22367B832814775200F6A2EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22367B85281478F800F6A2EA /* KeyIntercepter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyIntercepter.swift; sourceTree = "<group>"; };
+		22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGKeyCodeInitializers.swift; sourceTree = "<group>"; };
+		22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardBackKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22367B802814750600F6A2EA /* LaunchAtLogin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +86,7 @@
 		22367B4128146D1700F6A2EA = {
 			isa = PBXGroup;
 			children = (
+				22367B832814775200F6A2EA /* README.md */,
 				22367B4C28146D1700F6A2EA /* RealMouse */,
 				22367B5E28146D1800F6A2EA /* RealMouseTests */,
 				22367B6828146D1800F6A2EA /* RealMouseUITests */,
@@ -95,10 +107,12 @@
 		22367B4C28146D1700F6A2EA /* RealMouse */ = {
 			isa = PBXGroup;
 			children = (
-				22367B4D28146D1700F6A2EA /* RealMouseApp.swift */,
-				22367B4F28146D1700F6A2EA /* ContentView.swift */,
-				22367B5128146D1800F6A2EA /* Assets.xcassets */,
+				22367B84281478E100F6A2EA /* MouseKeyboard */,
 				22367B5628146D1800F6A2EA /* RealMouse.entitlements */,
+				22367B7B28146F8F00F6A2EA /* Preferences */,
+				22367B7A28146F8700F6A2EA /* App */,
+				22367B7928146F7A00F6A2EA /* Assets */,
+				22367B7828146F7100F6A2EA /* Views */,
 				22367B5328146D1800F6A2EA /* Preview Content */,
 			);
 			path = RealMouse;
@@ -129,6 +143,48 @@
 			path = RealMouseUITests;
 			sourceTree = "<group>";
 		};
+		22367B7828146F7100F6A2EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22367B4F28146D1700F6A2EA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		22367B7928146F7A00F6A2EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22367B5128146D1800F6A2EA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		22367B7A28146F8700F6A2EA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22367B4D28146D1700F6A2EA /* RealMouseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22367B7B28146F8F00F6A2EA /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				22367B7C28146F9C00F6A2EA /* UserPreferences.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		22367B84281478E100F6A2EA /* MouseKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				22367B85281478F800F6A2EA /* KeyIntercepter.swift */,
+				22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */,
+				22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */,
+			);
+			path = MouseKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,12 +195,16 @@
 				22367B4628146D1700F6A2EA /* Sources */,
 				22367B4728146D1700F6A2EA /* Frameworks */,
 				22367B4828146D1700F6A2EA /* Resources */,
+				22367B822814757000F6A2EA /* Launch at Login Helper */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RealMouse;
+			packageProductDependencies = (
+				22367B7F2814750600F6A2EA /* LaunchAtLogin */,
+			);
 			productName = RealMouse;
 			productReference = 22367B4A28146D1700F6A2EA /* RealMouse.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 22367B4128146D1700F6A2EA;
+			packageReferences = (
+				22367B7E2814750600F6A2EA /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+			);
 			productRefGroup = 22367B4B28146D1700F6A2EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,6 +317,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22367B822814757000F6A2EA /* Launch at Login Helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Launch at Login Helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22367B4628146D1700F6A2EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +345,10 @@
 			files = (
 				22367B5028146D1700F6A2EA /* ContentView.swift in Sources */,
 				22367B4E28146D1700F6A2EA /* RealMouseApp.swift in Sources */,
+				22367B8A28149D5300F6A2EA /* ForwardBackKeys.swift in Sources */,
+				22367B882814897600F6A2EA /* CGKeyCodeInitializers.swift in Sources */,
+				22367B7D28146F9C00F6A2EA /* UserPreferences.swift in Sources */,
+				22367B86281478F800F6A2EA /* KeyIntercepter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +512,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,11 +541,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshbedwell.RealMouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -576,6 +668,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22367B7E2814750600F6A2EA /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22367B7F2814750600F6A2EA /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22367B7E2814750600F6A2EA /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22367B4228146D1700F6A2EA /* Project object */;
 }
