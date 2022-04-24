@@ -19,6 +19,10 @@
 		22367B86281478F800F6A2EA /* KeyIntercepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B85281478F800F6A2EA /* KeyIntercepter.swift */; };
 		22367B882814897600F6A2EA /* CGKeyCodeInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */; };
 		22367B8A28149D5300F6A2EA /* ForwardBackKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */; };
+		22367B8C2814A2CE00F6A2EA /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B8B2814A2CE00F6A2EA /* Shell.swift */; };
+		22367B8E2814A90300F6A2EA /* MouseAccleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B8D2814A90300F6A2EA /* MouseAccleration.swift */; };
+		22367B902814B32A00F6A2EA /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B8F2814B32A00F6A2EA /* Scrolling.swift */; };
+		22367B922814B39C00F6A2EA /* MouseMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22367B912814B39C00F6A2EA /* MouseMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		22367B85281478F800F6A2EA /* KeyIntercepter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyIntercepter.swift; sourceTree = "<group>"; };
 		22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGKeyCodeInitializers.swift; sourceTree = "<group>"; };
 		22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardBackKeys.swift; sourceTree = "<group>"; };
+		22367B8B2814A2CE00F6A2EA /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		22367B8D2814A90300F6A2EA /* MouseAccleration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseAccleration.swift; sourceTree = "<group>"; };
+		22367B8F2814B32A00F6A2EA /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
+		22367B912814B39C00F6A2EA /* MouseMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +189,10 @@
 				22367B85281478F800F6A2EA /* KeyIntercepter.swift */,
 				22367B872814897600F6A2EA /* CGKeyCodeInitializers.swift */,
 				22367B8928149D5300F6A2EA /* ForwardBackKeys.swift */,
+				22367B8B2814A2CE00F6A2EA /* Shell.swift */,
+				22367B8D2814A90300F6A2EA /* MouseAccleration.swift */,
+				22367B8F2814B32A00F6A2EA /* Scrolling.swift */,
+				22367B912814B39C00F6A2EA /* MouseMode.swift */,
 			);
 			path = MouseKeyboard;
 			sourceTree = "<group>";
@@ -344,11 +356,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				22367B5028146D1700F6A2EA /* ContentView.swift in Sources */,
+				22367B8C2814A2CE00F6A2EA /* Shell.swift in Sources */,
+				22367B922814B39C00F6A2EA /* MouseMode.swift in Sources */,
+				22367B902814B32A00F6A2EA /* Scrolling.swift in Sources */,
 				22367B4E28146D1700F6A2EA /* RealMouseApp.swift in Sources */,
 				22367B8A28149D5300F6A2EA /* ForwardBackKeys.swift in Sources */,
 				22367B882814897600F6A2EA /* CGKeyCodeInitializers.swift in Sources */,
 				22367B7D28146F9C00F6A2EA /* UserPreferences.swift in Sources */,
 				22367B86281478F800F6A2EA /* KeyIntercepter.swift in Sources */,
+				22367B8E2814A90300F6A2EA /* MouseAccleration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

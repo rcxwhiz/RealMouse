@@ -16,17 +16,25 @@ class KeyIntercepter {
     }
     
     private func interceptButtons() {
-        let eventTap = CGEvent.tapCreate(tap: .cghidEventTap,
+        let otherMouseButtonsTap = CGEvent.tapCreate(tap: .cghidEventTap,
                                      place: .tailAppendEventTap,
-                                     options: .defaultTap,
+                                     options: .listenOnly,
                                      eventsOfInterest: 1 << CGEventType.otherMouseDown.rawValue,
                                      callback: ForwardBackKeys.callback,
                                      userInfo: nil)
+        let otherMouseButtonsRunLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, otherMouseButtonsTap, 0)
+        CFRunLoopAddSource(CFRunLoopGetCurrent(), otherMouseButtonsRunLoopSource, CFRunLoopMode.commonModes)
+        CGEvent.tapEnable(tap: otherMouseButtonsTap!, enable: true)
         
-        let runLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, eventTap, 0)
-        
-        CFRunLoopAddSource(CFRunLoopGetCurrent(), runLoopSource, CFRunLoopMode.commonModes)
-        CGEvent.tapEnable(tap: eventTap!, enable: true)
+        let scrollTap = CGEvent.tapCreate(tap: .cghidEventTap,
+                                          place: .headInsertEventTap,
+                                          options: .defaultTap,
+                                          eventsOfInterest: 1 << CGEventType.scrollWheel.rawValue,
+                                          callback: Scrolling.callback,
+                                          userInfo: nil)
+        let scrollRunLoopSource = CFMachPortCreateRunLoopSource(kCFAllocatorDefault, scrollTap, 1)
+        CFRunLoopAddSource(CFRunLoopGetCurrent(), scrollRunLoopSource, CFRunLoopMode.commonModes)
+        CGEvent.tapEnable(tap: scrollTap!, enable: true)
         
         Task {
             CFRunLoopRun()
